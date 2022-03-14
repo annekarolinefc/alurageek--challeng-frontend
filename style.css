@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    /*AUTO LAYOUT - DISPLAY FLEX*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0px;
+
+    /*TRAVANDO O MENU*/
+    position: static;
+    width: 1136px;
+    height: 115px;
+    left: 152px;
+    top: 0px;
+
+    background-color: #FFFFFF;
+
+    /*inside auto layout*/
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+
+.group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search{
+    margin-left: 32px;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    width: 393px;
+    height: 40px;
+    padding: 12px 16px;
+    justify-content: space-between;
+}
+input{
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    line-height: 16px;
+    color: #A2A2A2;
+}
+
+#icon-search{
+    width: 17px;
+    height: auto;
+}
+
+#login button{
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+    font-size: 16px;
+    line-height: 18.78px;
+    background-color: #FFFFFF;
+    padding: 10px 70px;
+}
+
+#banner{
+    background-image: url("./images/banner-image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 352px;
+}
+
+#banner .text{
+    padding-top: 150px;
+    padding-left: 152px;
+}
+
+#banner h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    size: 52px;
+    color: #FFFFFF;
+    line-height: 61.05px;
+}
+#banner p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    size: 22px;
+    color: #FFFFFF;
+    line-height: 25.83px;
+}
+#banner button{
+    color: #FFFFFF;
+    background-color: #2A7AE4;
+    padding: 16px;
+    border: none;
+}
+
+
+
+
+
+
+footer{
+    width: 1440px;
+    height: 102px;
+    margin: 32px 0px;
+}
+
+footer p{
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
